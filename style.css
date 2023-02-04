@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.caja{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.caja h1{
+    color: #0a3871;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(Imagenes/fondo-color-azul-claro-madera_43307-6.avif);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: monospace;
+}
+
+section{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.area-1{
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.area-2{
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 15 0 15 0;
+    border-radius: 5px;
+}
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 0 0 0;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.boton-e, .boton-d, .boton-c{
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+    
+}
+
+button:hover{
+    transform: scale(0.95);
+    transition: (0.6s);
+    cursor: pointer;
+}
+
+.boton-e{
+    background-color: #0a3871;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+}
+
+.boton-d{
+    background-color: white;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+}
+
+.boton-c{
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+}
+
+.boton-e, .boton-d, .boton-c{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section{
+    display: flex;
+    width: 100vw;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Github{
+    margin: 2px;
+    width: 30px;
+}
+
+#LinkedIn{
+    margin: 2px;
+    width: 30px;
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: auto;
+    }
+
+    section{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caja2{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .botones1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boton-e, .boton-d{
+        margin: 5px;
+    }
+
+    #texto{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .area-2 img{
+        width: 200px;
+    }
+
+    .area-2 div{
+        border-radius: 5px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 375px /*350px*/){
+    body{
+        width: 100%;
+    }
+    
+    section{
+        margin: 0 0 0 0;
+    }
+
+    .caja h1{
+        margin-bottom: 15px;
+    }
+    
+    .caja{
+        flex-direction: column;
+    }
+
+    .caja2{
+        margin-top: 0px;
+    }
+
+    .area-1{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .botones1{
+        width: 60%;
+    }
+
+    .botones1 button{
+        height: 70px;
+    }
+
+}
