@@ -1,27 +1,9 @@
 # Encriptador
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+-El encriptador fue implementado utilizando HTML, CSS y JavaScript. 
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+-La página web tiene campos para insertar el texto que se va a encriptar o desencriptar, y el usuario puede elegir entre las dos opciones. El resultado se muestra en la pantalla mediante manipulación del DOM con JavaScript. 
 
-Requisitos:
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
-
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
-
-La página debe tener campos para
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-El resultado debe ser mostrado en la pantalla.
-
-Extras:
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+-Además, se incluyó un botón para copiar el texto encriptado o desencriptado al portapapeles del usuario, utilizando la funcionalidad de la API del navegador. Tanto el diseño como la funcionalidad de la página se implementaron con HTML y CSS personalizado, utilizando también algunos componentes de la librería de Bootstrap.
 
 Link del proyecto en About 👉
