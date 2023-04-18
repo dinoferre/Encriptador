@@ -6,8 +6,6 @@
 
 -Además, se incluyó un botón para copiar el texto encriptado o desencriptado al portapapeles del usuario, utilizando la funcionalidad de la API del navegador. Tanto el diseño como la funcionalidad de la página se implementaron con HTML y CSS personalizado, utilizando también algunos componentes de la librería de Bootstrap.
 
-Dino Ferré 👽
-
-Link del proyecto 👇
+Dino Ferré 👽 - Link del proyecto 👇
 
 https://dinoferre.github.io/Encriptador/
